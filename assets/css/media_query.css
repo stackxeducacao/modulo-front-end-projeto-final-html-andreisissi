@@ -1,0 +1,438 @@
+/*
+pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px 
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+
+   /* -------------  NAV  ------------- */
+
+.container_nav_footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 2.5rem;
+}
+
+.container_nav_footer span {
+   font-size: 2rem;
+}
+
+.container_nav_footer ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 4rem;
+}
+
+/* -------------  PROFILE  ------------- */
+
+.container_foto {
+   position: absolute;
+   background: #1c181c;
+   width: 20rem;
+   height: 30rem;
+   top: 0;
+   right: 0;
+}
+
+.container_foto img {
+   position: relative;
+   width: 20rem;
+   margin-top: 10rem;
+}
+
+.container_profile {
+   text-align: left;
+   margin-left: 2.5rem;
+}
+
+.container_profile h2 {
+   font-size: 3rem;
+}
+
+.linha_hr {
+   width: 90%;
+   margin: auto;
+   border: 1px solid gray;
+}
+
+/* -------------  EXPERIENCES ------------- */
+
+#experiences {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 3rem 0;
+   width: 90%;
+   margin: auto;
+}
+
+.div_experiences {
+   font-size: 50px;
+   width: 300px;
+   margin: 20px 0;
+   text-align: left;
+}
+
+.div_experiences i {
+   font-size: 35px;
+}
+/* -------------  PROJECTS  ------------- */
+
+#projects {
+   font-size: 40px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#projects h2 {
+   width: 100%;
+}
+
+.container_projetcs{
+   width: 50%;
+}
+
+.container_projetcs p {
+   font-size: 20px;
+}
+
+/* -------------  CONTACT  ------------- */
+
+#contact h2 {
+   font-size: 60px;
+}
+
+.container_input{
+   width: 75%;
+   margin: auto;
+}
+
+.input_contact {
+   margin-bottom: 3rem;
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {  /* DESKTOP */
+
+      /* -------------  NAV  ------------- */
+
+.container_nav_footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 5.5rem;
+   width: 100%;
+}
+
+.container_nav_footer span {
+   font-size: 1.5rem;
+}
+
+.container_nav_footer ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 4rem;
+}
+
+/* -------------  PROFILE  ------------- */
+
+#profile {
+   margin: 0 5.5rem;
+}
+
+.container_foto {
+   position: absolute;
+   background: #1c181c;
+   width: 20rem;
+   height: 30rem;
+   top: 0;
+   right: 5.5rem;
+}
+
+.container_foto img {
+   position: relative;
+   width: 20rem;
+   margin-top: 10rem;
+}
+
+.container_profile {
+   text-align: left;
+   margin: 3rem 0 ;
+}
+
+.container_profile h2 {
+   font-size: 4.2rem;
+   line-height: 70px;
+   margin-bottom: 3rem;
+}
+
+.container_profile p {
+   letter-spacing: 1px;
+}
+
+.linha_hr {
+   margin: auto;
+   width: 85%;
+   border: 1px solid gray;
+}
+
+/* -------------  EXPERIENCES ------------- */
+
+#experiences {
+   display: flex;
+   padding: 3rem 0;
+   margin: 0 5.5rem;
+   justify-content: center;
+}
+
+.div_experiences {
+   font-size: 40px;
+   width: 220px;
+   margin: 20px 0;
+   text-align: center;
+}
+
+.div_experiences i {
+   font-size: 2rem;
+}
+
+/* -------------  PROJECTS  ------------- */
+
+#projects {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 3rem 5.5rem;
+   font-size: 35px;
+}
+
+#projects h2 {
+   width: 100%;
+}
+
+.container_projetcs{
+   width: 45%;
+   margin: 20px 10px;
+}
+
+.container_projetcs img {
+   width: 100%;
+   border-radius: 1px;
+}
+
+.container_projetcs p {
+   font-size: 25px;
+}
+
+.container_projetcs span {
+   margin-bottom: 5px;
+}
+
+.container_projetcs a {
+   margin: 0;
+}
+
+/* -------------  CONTACT  ------------- */
+
+#contact {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.container_h2_contato {
+   width: 40%;
+   margin-left: 5.5rem;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#contact h2 {
+   font-size: 55px;
+   height: 20%;
+   margin: 40px 0 0 0;
+   padding: 15px 0;
+}
+
+#contact p {
+   font-size: 15px;
+   text-align: left;
+   margin: 15px 0 0 0;
+   height: min-content;
+   padding-bottom: 200px;
+}
+
+.container_form {
+   width: 40%;
+   margin: 2.5rem 0 0 4rem;
+}
+
+}
+
+@media screen and (min-width: 1200px) {  /* GRANDES TELAS */
+         /* -------------  NAV  ------------- */
+
+.container_nav_footer {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 10rem;
+   width: 100%;
+}
+
+.container_nav_footer span {
+   font-size: 2rem;
+}
+
+.container_nav_footer ul {
+   display: flex;
+   gap: 2rem;
+   font-size: 1.5rem;
+   margin-right: 6rem;
+}
+
+/* -------------  PROFILE  ------------- */
+
+#profile {
+   margin: 0 10rem;
+}
+
+.container_foto {
+   position: absolute;
+   background: #1c181c;
+   width: 20rem;
+   height: 30rem;
+   top: 0;
+   right: 12rem;
+}
+
+.container_foto img {
+   position: relative;
+   width: 20rem;
+   margin-top: 10rem;
+}
+
+.container_profile {
+   text-align: left;
+   margin: 2rem 0 ;
+}
+
+.container_profile h2 {
+   font-size: 4.5em;
+   line-height: 70px;
+   margin-bottom: 3rem;
+}
+
+.container_profile p {
+   font-size: 20px;
+}
+
+.linha_hr {
+   margin: auto;
+   width: 85%;
+   border: 1px solid gray;
+}
+
+/* -------------  EXPERIENCES ------------- */
+
+#experiences {
+   display: flex;
+   justify-content: center;
+   gap: 70px;
+
+   margin: auto;
+   padding: 3rem 0;
+   width: 70%;
+}
+
+.div_experiences {
+   font-size: 50px;
+   width: 250px;
+   margin: 20px 0;
+   text-align: center;
+}
+
+.div_experiences i {
+   font-size: 2rem;
+}
+
+/* -------------  PROJECTS  ------------- */
+
+#projects {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   width: 75%;
+   font-size: 35px;
+   padding: 50px 0;
+}
+
+#projects h2 {
+   width: 100%;
+   margin-left: 2.5rem;
+}
+
+.container_projetcs{
+   width: 45%;
+   margin: auto;
+   padding-top: 5rem;
+}
+
+.container_projetcs img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.container_projetcs p {
+   font-size: 30px;
+}
+
+.container_projetcs span {
+   margin-bottom: 5px;
+}
+
+.container_projetcs a {
+   font-size: 20px;
+}
+
+/* -------------  CONTACT  ------------- */
+
+#contact {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+   justify-content: center;
+}
+
+.container_h2_contato {
+   display: flex;
+   flex-wrap: wrap;
+   width: max-content;
+   width: 35%;
+}
+
+#contact h2 {
+   font-size: 70px;
+   height: 20%;
+   margin: 40px 0 0 0;
+   padding: 15px 0;
+}
+
+#contact p {
+   font-size: 15px;
+   text-align: left;
+   margin: 15px 0 0 0;
+   height: min-content;
+   padding-bottom: 200px;
+}
+
+.container_form {
+  width: 35%;
+  margin-top: 2.5rem;
+}
+
+}
